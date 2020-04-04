@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  background-color: #e91e63;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 15px;
+}
+.body{}
+.body ul{
+  margin: 0;
+  padding: 15px;
+}
+.body ul li{
+  background-color: #ddd;
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 10px;
+
+}
+.body ul li span{
+  cursor: pointer;
+  float: right;
+  font-weight: 900;
+  color: red;
+
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  padding: 15px;
+  background-color: #e91e63;
+  width: 100%;
+}
+.footer input{
+  width: 90%;
+  margin: auto;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 17px;
+  height: 38px;
+}
+.footer input:focus{outline: none;}
+.footer button:focus{outline: none;}
+
+.footer button{
+  cursor: pointer;
+  position: absolute;
+  top: -18px;
+  right: 50px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 26px;
+  border: none;
+  background-color: #e91e63;
+  color: #fff;
+  box-shadow: 3px 4px 3px;
+}
